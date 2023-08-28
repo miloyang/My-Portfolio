@@ -2,7 +2,7 @@
 
 ## Description
 
-This challenge allows the bootcamp students to showcase our skills and talents to employers looking to fill a position. An effective portfolio highlights our strongest work as well as the thought processes behind it. It will set us up for future success by applying the core advanced CSS skills we've recently learned this week. Having several deployed projects is a minimum requirement to receive an initial interview at many companies.
+This challenge allows the bootcamp students to showcase our skills and talents to employers looking to fill a position. An effective portfolio highlights our strongest work as well as the thought processes behind it. It will set us up for future success by applying the core advanced CSS skills we've recently learned this week. 
 
 ## Installation
 
