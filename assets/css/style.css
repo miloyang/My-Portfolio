@@ -1,0 +1,98 @@
+:root {
+    --dark-grey: #323341;
+    --aqua: rgb(151, 204, 204);
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--white);
+}
+
+header {
+    padding: 10px;
+    font-family: Arial, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background-color: var(--dark-grey);
+    color: #ffffff;
+}
+
+header h1 {
+    padding: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 40px;
+    background-color: var(--aqua);
+    color: var(--dark-grey)
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 40px;
+    float: right;
+    font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--aqua);
+    text-decoration: underline;
+}
+
+.hero-image {
+    height: 180px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Images/shapelined-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text {
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    font-size: 25px;
+    color: var(--dark-grey);
+    background-color: var(--aqua);
+  }
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: var(--dark-grey);
+    color: var(--aqua);
+    margin-top: auto;
+  }
+
+  @media screen and (max-width: 992px) {
+    main, 
+    nav {
+      flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
