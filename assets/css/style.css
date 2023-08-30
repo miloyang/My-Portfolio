@@ -145,11 +145,14 @@ a {
     margin: 10px;
   }
   
-  .card > h4 {
+  .h4 {
     padding: 20px;
+    color: var(--dark-grey)
+    background-color: var(--aqua);
+    border: 1px solid red;
   }
   
-  /* .card > p {
+  /* .card p {
     text-align: center;
     margin-left: 100px;
   } */
@@ -165,6 +168,58 @@ a {
     height: 50%;
     width: 100%;
   }
+
+  .horiseon-refactor {
+    background-image: url('../Images/challenge-page-screenshot.png');
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 500px;
+  }
+
+  .led-wall {
+    background-image: url('../Images/css-book.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px; /* Set an appropriate height for the card */
+  }
+
+  .calculator {
+    background-image: url('../Images/post-it-notes-patterns.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+  }
+
+  .pastel-puzzels {
+    background-image: url('../Images/retrosupply.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+  }
+
+  .run-buddy {
+    background-image: url('../Images/website-development.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 .contact nav {
     padding: 15px;
@@ -185,7 +240,7 @@ a {
     background: var(--dark-grey);
     color: var(--aqua);
     margin-top: auto;
-    position: fixed;
+    /* position: fixed; */
   }
   
   @media screen and (max-width: 992px) {
