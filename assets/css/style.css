@@ -68,7 +68,7 @@ a {
     background-color: var(--aqua);
   }
 
-  .info-titles {
+  /* .info-titles {
     margin-right: 20px;
     padding: 20px;
     float: left;
@@ -77,9 +77,35 @@ a {
     border-left: var(--dark-grey);
     font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri;
     font-size: 40px;
+  } */
+
+  .title {
+    width: 25%;
+    border-right: 1px solid black;
+    flex: 1 0 15%;
+    margin-right: 20px;
+    padding: 20px;
+    border-left: var(--dark-grey);
+    font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 40px;
   }
 
-  .info-me, .info-work, .info-contact {
+  .title h3 {
+    text-align: right;
+  }
+
+  .section {
+    display: flex;
+    border: 1px solid red;
+    padding: 15px;
+  }
+
+  .section-content {
+    padding: 10px;
+    flex: 1 0 70%;
+  }
+
+  /* .info-me, .info-work, .info-contact {
     display: block;
     color: var(--dark-grey);
   }
@@ -95,33 +121,27 @@ a {
   .info-me h3, .info-work h3, .info-contact h3 {
     margin-bottom: 10px;
     text-align: right;
-  }
+  } */
 
-  .content {
-    margin-right: 80px;
-    margin-left: 80px;
-  }
-
-  .work {
+  /* .work {
     flex: 1;
     background-color: var(--light);
-    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
+  } */
 
-  .horiseon-refactor img {
-    width: 1400px;
-    height: 400px;
-  }
+  /* .horiseon-refactor img {
+    display: flex;
+    flex: 1 0 10%;
+  } */
+
   .card {
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid black;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 300px;
+    flex: 1 0 10%;
     margin: 10px;
   }
   
@@ -129,19 +149,25 @@ a {
     padding: 20px;
   }
   
-  .card > p {
+  /* .card > p {
     text-align: center;
     margin-left: 100px;
+  } */
+
+  .horiseon-refactor, .led-wall, .calculator, .pastel-puzzels, .run-buddy {
+    display: flex;
+    flex: 1 0 50%;
   }
 
-  .led-wall img, .calculator img, .pastel-puzzels img, .run-buddy img {
-    width: 600px;
-    height: 200px;
+  .horiseon-refactor img, .led-wall img, .calculator img, .pastel-puzzels img, .run-buddy img {
+    display: flex;
+    flex: 1 0 50%;
+    height: 50%;
+    width: 100%;
   }
 
 .contact nav {
     padding: 15px;
-    float: right;
     font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri;
     font-size: 20px;
 }
@@ -159,6 +185,7 @@ a {
     background: var(--dark-grey);
     color: var(--aqua);
     margin-top: auto;
+    position: fixed;
   }
   
   @media screen and (max-width: 992px) {
