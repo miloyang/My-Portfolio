@@ -1,4 +1,4 @@
-# Coding Bootcamp: Week 2 - Portfolio Challenge
+# Coding Bootcamp: Week 2 - Creating a Professional Portfolio
 
 ## Description
 
@@ -10,14 +10,18 @@ N/A
 
 ## Usage
 
-To see the refactored HTML and CSS codes, you can copy and paste this link into your browser: https://miloyang.github.io/My-Portfolio
+To see the HTML and CSS codes, you can copy and paste this link into your browser: https://miloyang.github.io/My-Portfolio
 
 The page should open as per below screenshot:
-![Screenshot of Portfolio Page](assets/images/challenge-page-screenshot.png)
+![Screenshot of Portfolio Page](assets/images/Portfolio-Screenshot-1)
+![Screenshot of Portfolio Page](assets/images/Portfolio-Screenshot-2)
 
 The HTML and CSS codes can be seen when you open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. 
 
-When you click on the links in the navigation, the UI will scroll to the corresponding section. When you click on the links to the section about my work, the UK will scroll to a section with titled images of my applications. When you click on the images of the applications, you will be taken to that deployed application. The page will have a responsive layout that adapts the viewport, when you resize the page or view the site on various screens and devices.
+When you click on the links in the navigation, the UI will scroll to the corresponding section. 
+When you click on the links to the section about my work, the UI will scroll to a section with titled images of my applications. 
+When you click on the images of the applications, you will be taken to that deployed application. 
+The page will have a responsive layout that adapts the viewport, when you resize the page or view the site on various screens and devices.
 
 ## Credits
 
