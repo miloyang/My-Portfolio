@@ -3,6 +3,7 @@
   --dark-grey: #323341;
   --aqua: rgb(151, 204, 204);
   --white: #ffffff;
+  --red: red;
 }
 
 body {
@@ -81,7 +82,7 @@ h2 {
 
 .title {
   width: 25%;
-  border-right: 3px solid black;
+  border-right: 3px solid var(--dark-grey);
   flex: 1 0 15%;
   margin-right: 20px;
   padding: 20px;
@@ -96,7 +97,6 @@ h2 {
 
 .section {
   display: flex;
-  /* border: 1px solid red; */
   padding: 15px;
 }
 
@@ -106,7 +106,6 @@ h2 {
 }
 
 .card {
-  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   flex: 1 0 10%;
@@ -128,7 +127,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-
 }
 
 .horiseon-refactor,
@@ -146,8 +144,10 @@ h2 {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  min-height: 500px;
   /* Set an appropriate height for the card */
+  min-height: 500px;
+  /* Setting the opacity so that the image will look clearer during the hover state */
+  filter: opacity(70%);
 }
 
 .led-wall {
@@ -156,8 +156,10 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 250px;
   /* Set an appropriate height for the card */
+  min-height: 250px;
+  /* Setting the opacity so that the image will look clearer during the hover state */
+  filter: opacity(70%);
 }
 
 .calculator {
@@ -166,8 +168,10 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 250px;
   /* Set an appropriate height for the card */
+  min-height: 250px;
+  /* Setting the opacity so that the image will look clearer during the hover state */
+  filter: opacity(70%);
 }
 
 .pastel-puzzels {
@@ -176,8 +180,10 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 250px;
   /* Set an appropriate height for the card */
+  min-height: 250px;
+  /* Setting the opacity so that the image will look clearer during the hover state */
+  filter: opacity(70%);
 }
 
 .run-buddy {
@@ -186,8 +192,19 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 250px;
   /* Set an appropriate height for the card */
+  min-height: 250px;
+  /* Setting the opacity so that the image will look clearer during the hover state */
+  filter: opacity(70%);
+}
+
+/* Opacity 100% at hover state */
+.horiseon-refactor:hover,
+.led-wall:hover,
+.calculator:hover,
+.pastel-puzzels:hover,
+.run-buddy:hover {
+  filter: opacity(100%);
 }
 
 .contact nav {
@@ -208,28 +225,18 @@ h2 {
 .contact nav a:hover {
   background-color: var(--aqua);
   padding: 10px;
+  text-decoration: none;
 }
 
 .card:hover {
-  border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
 
 .card:hover,
 .card:hover .p {
   box-shadow: inset 0px 0px 8px var(--aqua), 0 0 15px var(--aqua);
-  border: 1px solid red;
+  border: 1px solid var(--red);
 }
-
-
-
-
-
-
-
-
-
-
 
 footer {
   width: 100%;
@@ -241,10 +248,13 @@ footer {
   margin-top: auto;
 }
 
+/* Setting Media Screen so that the page is responsive with different screen sizes.*/
 @media screen and (max-width: 992px) {
 
-  main,
-  nav {
+  card,
+  nav,
+  title {
+    width: 50%;
     flex-direction: column;
   }
 }
@@ -252,7 +262,10 @@ footer {
 @media screen and (max-width: 768px) {
 
   main,
-  nav {
+  card,
+  nav,
+  title {
+    width: 100%;
     flex-direction: column;
   }
 }
