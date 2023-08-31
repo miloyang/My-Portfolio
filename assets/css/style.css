@@ -47,6 +47,10 @@ a {
   text-decoration: underline;
 }
 
+header nav a:hover {
+  color: var(--white);
+}
+
 .hero-banner {
   height: 180px;
   width: 100%;
@@ -59,14 +63,11 @@ a {
 }
 
 .hero-box {
-  /* padding: 10px; */
   text-align: right;
   position: absolute;
-  /* top: 25%; */
   left: 45%;
   font-size: 30px;
   color: var(--dark-grey);
-  /* background-color: var(--aqua); */
   display: flex;
   width: 300px;
   height: 180px;
@@ -80,7 +81,7 @@ h2 {
 
 .title {
   width: 25%;
-  border-right: 1px solid black;
+  border-right: 3px solid black;
   flex: 1 0 15%;
   margin-right: 20px;
   padding: 20px;
@@ -105,12 +106,12 @@ h2 {
 }
 
 .card {
-  /* border: 1px solid black; */
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
   flex: 1 0 10%;
   margin: 10px;
+  border: 5px solid var(--aqua);
 }
 
 .card p {
@@ -120,6 +121,14 @@ h2 {
   position: absolute;
   bottom: 70px;
   font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
 }
 
 .horiseon-refactor,
@@ -181,27 +190,46 @@ h2 {
   /* Set an appropriate height for the card */
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
 .contact nav {
   padding: 40px;
   font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri;
   font-size: 25px;
 }
 
-.contact nav a {
-  color: var(--dark-grey);
-}
-
 .contact nav ol li {
   display: inline-block;
   margin-left: 60px;
 }
+
+.contact nav a {
+  color: var(--dark-grey);
+}
+
+.contact nav a:hover {
+  background-color: var(--aqua);
+  padding: 10px;
+}
+
+.card:hover {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover,
+.card:hover .p {
+  box-shadow: inset 0px 0px 8px var(--aqua), 0 0 15px var(--aqua);
+  border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
 
 footer {
   width: 100%;
