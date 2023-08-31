@@ -13,8 +13,7 @@ N/A
 To see the HTML and CSS codes, you can copy and paste this link into your browser: https://miloyang.github.io/My-Portfolio
 
 The page should open as per below screenshots:
-![Screenshot 1 of Portfolio Page](assets/Images/Portfolio-Screenshot-1.png)
-![Screenshot 2 of Portfolio Page](assets/Images/Portfolio-Screenshot-2.png)
+![Screenshot of Portfolio Page](assets/Images/Portfolio-Screenshot-1.png)
 
 The HTML and CSS codes can be seen when you open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. 
 
