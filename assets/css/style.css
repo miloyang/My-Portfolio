@@ -130,7 +130,7 @@ h2 {
 }
 
 .horiseon-refactor,
-.led-wall,
+.parking,
 .calculator,
 .pastel-puzzels,
 .run-buddy {
@@ -138,8 +138,8 @@ h2 {
   flex: 1 0 50%;
 }
 
-.horiseon-refactor {
-  background-image: url('../Images/challenge-page-screenshot.png');
+.parking {
+  background-image: url('../Images/park-with-access.png');
   position: relative;
   background-size: cover;
   background-position: top;
@@ -150,8 +150,8 @@ h2 {
   filter: opacity(70%);
 }
 
-.led-wall {
-  background-image: url('../Images/css-book.jpg');
+.horiseon-refactor {
+  background-image: url('../Images/challenge-page-screenshot.png');
   position: relative;
   background-size: cover;
   background-position: center;
@@ -200,7 +200,7 @@ h2 {
 
 /* Opacity 100% at hover state */
 .horiseon-refactor:hover,
-.led-wall:hover,
+.parking:hover,
 .calculator:hover,
 .pastel-puzzels:hover,
 .run-buddy:hover {
