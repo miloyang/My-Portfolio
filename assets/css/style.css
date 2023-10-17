@@ -131,9 +131,9 @@ h2 {
 
 .horiseon-refactor,
 .parking,
-.calculator,
-.pastel-puzzels,
-.run-buddy {
+.work-day,
+.weather-app,
+.password {
   display: flex;
   flex: 1 0 50%;
 }
@@ -162,8 +162,8 @@ h2 {
   filter: opacity(70%);
 }
 
-.calculator {
-  background-image: url('../Images/post-it-notes-patterns.jpg');
+.work-day {
+  background-image: url('../Images/Work-Day-Scheduler-Screenshot.png');
   position: relative;
   background-size: cover;
   background-position: center;
@@ -174,8 +174,8 @@ h2 {
   filter: opacity(70%);
 }
 
-.pastel-puzzels {
-  background-image: url('../Images/retrosupply.jpg');
+.weather-app {
+  background-image: url('../Images/Weather-App-Screenshot.png');
   position: relative;
   background-size: cover;
   background-position: center;
@@ -186,8 +186,8 @@ h2 {
   filter: opacity(70%);
 }
 
-.run-buddy {
-  background-image: url('../Images/website-development.jpg');
+.password {
+  background-image: url('../Images/Password-Generator-Screenshot.png');
   position: relative;
   background-size: cover;
   background-position: center;
@@ -202,8 +202,8 @@ h2 {
 .horiseon-refactor:hover,
 .parking:hover,
 .calculator:hover,
-.pastel-puzzels:hover,
-.run-buddy:hover {
+.weather-app:hover,
+.password:hover {
   filter: opacity(100%);
 }
 
